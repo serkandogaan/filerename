@@ -11,6 +11,8 @@ import (
 func main() {
 
 	filePath := "C:/Users/Serkan/Desktop/dosyalar" // Dosya yaolunu buraya girin
+	var input string
+	fmt.Scanln(&input)
 
 	files, err := ioutil.ReadDir(filePath)
 	if err != nil {
